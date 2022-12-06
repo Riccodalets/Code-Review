@@ -3,13 +3,13 @@ HyperionDev Code Reviewer Take-Home Test(Option 3: Ruby Task)
 
 correction
 ---
-there are some few error to lookup to
+There are some few error to lookup to
 
-Indentation is a very important concept of Ruby, all the statements with the same space to the right, 
+**Indentation*** is a very important concept of Ruby, all the statements with the same space to the right, 
 belong to the same code block.
 the first error is in line 4, we have IndentationError. Increase space to the right on line 4 using a Tab key.
 
-The second error, is in line 11, we have Misspelling errors. You wrote reversd **instead**
+The second error, is in line 11, we have Misspelling errors. You wrote reversd instead of reversed
 
 The third error, is in line 13, we have semantic error. While trying to checking if number has reached 0, there we should write num != 0.
 
@@ -65,7 +65,7 @@ Documentation
 ---
 you have done a good work code is commented but please consider short and brief comments like i did in the blow code snippet.
  
- Corrected Code
+Corrected Code
  ---
 ```
 def is_palindrome(x)
