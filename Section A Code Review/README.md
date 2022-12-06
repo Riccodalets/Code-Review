@@ -13,17 +13,25 @@ Indentation is a very important concept of Python, all the statements with the s
 Test cases:
 ---
 *cases 1: [""]
+
 *cases 2: ["eat", "tea", "tan", "ate", "nat", "bat"]
+
 *cases 3: ["", "eat", "tea", "tan", "ate", "nat", "bat", ""]
+
 *cases 4: ["ems","mes"]
+
 *cases 5: ["tem","Met","EMT"]
 
 Expected answers:
 
 *cases 1: [[""]]
+
 *cases 2: [["tan","nat"],["eat","tea","ate"],["bat"]]
+
 *cases 3: [["",""],["tan","nat"],["eat","tea","ate"],["bat"]]
+
 *cases 4: [["ems","mes"]]
+
 *cases 5: [['tem', 'met', 'emt']]
 
 all cases pass exept case 5, Strings does not consists of lowercase English letters.
@@ -34,17 +42,21 @@ Efficiency
 ---
 
 -Time Complexity: Let there be N-words and each word has a maximum of M characters. The upper bound is O(NM).
+
 -Space Complexity: Let there be N-words and each word has maximum M characters, therefore max. storage space 
 for each word with at max. M characters will be O(M), therefore for max N-words, it will be O(N*M). Therefore,
 the upper bound is O(NM).
+
 -There a data structure called defaultdict that helps you avoid checking for the key in the dictionary.
  And can reduce time complaxity and with less effort.
 
 style
 ---
  -You used a good practice, white space style which enhance code readability.
+ 
  -Indentation styles assist in identifying control flow and blocks of code, let's make sure we perfect it 
   (use tabs to create white space).
+  
  -Variable naming is an important aspect in making your code readable. Naming variables follow a simple 
   idea: Create variables that describe their function and which follow a consistent theme throughout your code. 
 
