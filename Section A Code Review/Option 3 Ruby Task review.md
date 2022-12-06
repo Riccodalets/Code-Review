@@ -5,7 +5,7 @@ correction
 ---
 There are some few error to lookup to
 
-**Indentation*** is a very important concept of Ruby, all the statements with the same space to the right, 
+**Indentation** is a very important concept of Ruby, all the statements with the same space to the right, 
 belong to the same code block.
 the first error is in line 4, we have IndentationError. Increase space to the right on line 4 using a Tab key.
 
