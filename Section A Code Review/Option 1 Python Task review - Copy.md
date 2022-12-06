@@ -1,13 +1,15 @@
-HyperionDev Code Reviewer Take-Home Test
+HyperionDev Code Reviewer Take-Home Test(Option 1: Python Task)
 ---
+
 correction
+---
 Your code is great however
 Indentation is a very important concept of Python, all the statements with the same space to the right, 
  belong to the same code block. 
  Line 2, the indentation is incorrect which leads to IndentationError
  decrease space to the right on line 2 so that line 2 is a Tab away from line 1.
     
--line 5, sorted() function must take in at least one parameter.
+line 5, sorted() function must take in at least one parameter.
     i should be the parameter to have sorted(i).
 
 Test cases:
@@ -35,7 +37,7 @@ cases 4: [["ems","mes"]]
 cases 5: [['tem', 'met', 'emt']]
 
 all cases pass exept case 5, Strings does not consists of lowercase English letters.
-To correct this, we shoul add i = i.lower() below line 4.   
+To correct this, we should add i = i.lower() below line 4.   
 
 
 Efficiency
@@ -70,15 +72,15 @@ For this reason, it's very important do it and get it right.
  ---
 ```
 class Solution:
-    def groupAnagrams(self, strs):
-		result = {}
-		for i in strs:
-			x = "".join(sorted(i))
-			if x in result:
-				result[x].append(i)
-			else:
-				result[x] = [i]
-        return list(result.values())
+   def groupAnagrams(self, strs):
+      result = {}
+      for i in strs:
+         x = "".join(sorted(i))
+         if x in result:
+            result[x].append(i)
+         else:
+            result[x] = [i]
+      return list(result.values())
 ob1 = Solution()
 print(ob1.groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
 ```
