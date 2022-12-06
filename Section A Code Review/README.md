@@ -4,10 +4,10 @@ correction
 Your code is great however
 Indentation is a very important concept of Python, all the statements with the same space to the right, 
  belong to the same code block. 
- -_line 2_, the indentation is incorrect which leads to IndentationError
+ Line 2, the indentation is incorrect which leads to IndentationError
  decrease space to the right on line 2 so that line 2 is a Tab away from line 1.
     
--_line 5_, sorted() function must take in at least one parameter.
+-line 5, sorted() function must take in at least one parameter.
     i should be the parameter to have sorted(i).
 
 Test cases:
