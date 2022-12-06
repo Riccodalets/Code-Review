@@ -68,6 +68,7 @@ For this reason, it's very important do it and get it right.
  
  Corrected Code
  ---
+```
 class Solution:
     def groupAnagrams(self, strs):
 		result = {}
@@ -80,3 +81,4 @@ class Solution:
         return list(result.values())
 ob1 = Solution()
 print(ob1.groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
+```
